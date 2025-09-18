@@ -1,2 +1,6 @@
 build
-venv
+.venv
+dist
+input
+output.txt
+POCalculator.spec
