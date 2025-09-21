@@ -3,7 +3,7 @@ import re
 
 def main():
     doc = pymupdf.open("build/input/test.pdf")
-    out = open("output.pdf", "wb")
+    out = open("input/25500252-OF_1_5_2025.pdf", "wb")
     pattern = r"ORDER NO\n:\n(.*)|GRAND TOTAL\n:\nIDR\n(.*)\n|^[0-9]$\n(.*\n.*\n.*\n.*\n.*)"
     dict = {}
     for page in doc:
